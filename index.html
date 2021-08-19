@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="UTF-8"/>
+	<title>Nesinder</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.7.0/Sortable.min.js"></script>
+	<script src="scripts/lzw.js"></script>
+	<script src="scripts/picker.js"></script>
+	<script src="scripts/picker-ui.js"></script>
+	<script src="scripts/main.js"></script>
+
+	<link rel="stylesheet" href="styles/picker.css">
+</head>
+<body>
+	<div id="loader">
+		<h1>Nesinder</h1>
+		<input id="fileToImport" type="file" accept=".lzw,.txt,.json" onchange="loadDataset()" hidden="hidden"><button onclick="$('#fileToImport').click()">Load Dataset...</button>
+	</div>
+
+	<div id="container" hidden="hidden">
+		<h1 id="title">Nesinder</h1>
+		<button id="export">Export current progression...</button><a hidden="hidden" id="fileToExport"></a>
+		<div id="picking">
+			<ul id="evaluating" class="item-list"></ul>
+
+			<p id="buttons">
+				<button id="pick">Pick</button>
+				<button id="pass">Pass</button>
+				<button id="undo">Undo</button>
+				<button id="redo">Redo</button>
+				<input id="maxBatchSize" type="number" min="2" max="10" value="6" style="width: 3em;"></input>
+			</p>
+			<div id="progress">
+				<div id="progressBar"></div>
+				<div id="progressText"></div>
+			</div>
+		</div>
+
+		<div id="secondary">
+			<h2>Found favorites</h2>
+			<ol id="favorites" class="item-list"></ol>
+		</div>
+	</div>
+</body>
+</html>

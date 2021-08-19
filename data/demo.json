@@ -1,0 +1,14 @@
+{
+	"title": "Demo",
+	"items": {
+		"Bulbasaur":{"imgs":["https://www.dragonflycave.com/sprites/gen8/home-thumb/001.png", "https://www.dragonflycave.com/sprites/gen8/home-thumb/shiny/001.png"]},
+		"Ivysaur":{"imgs":["https://www.dragonflycave.com/sprites/gen8/home-thumb/002.png", "https://www.dragonflycave.com/sprites/gen8/home-thumb/shiny/002.png"]},
+		"Venusaur":{"imgs":["https://www.dragonflycave.com/sprites/gen8/home-thumb/003.png", "https://www.dragonflycave.com/sprites/gen8/home-thumb/shiny/003.png"]},
+		"Charmander":{"imgs":["https://www.dragonflycave.com/sprites/gen8/home-thumb/004.png", "https://www.dragonflycave.com/sprites/gen8/home-thumb/shiny/004.png"]},
+		"Charmeleon":{"imgs":["https://www.dragonflycave.com/sprites/gen8/home-thumb/005.png", "https://www.dragonflycave.com/sprites/gen8/home-thumb/shiny/005.png"]},
+		"Charizard":{"imgs":["https://www.dragonflycave.com/sprites/gen8/home-thumb/006.png", "https://www.dragonflycave.com/sprites/gen8/home-thumb/shiny/006.png"]},
+		"Squirtle":{"imgs":["https://www.dragonflycave.com/sprites/gen8/home-thumb/007.png", "https://www.dragonflycave.com/sprites/gen8/home-thumb/shiny/007.png"]},
+		"Wartortle":{"imgs":["https://www.dragonflycave.com/sprites/gen8/home-thumb/008.png", "https://www.dragonflycave.com/sprites/gen8/home-thumb/shiny/008.png"]},
+		"Blastoise":{"imgs":["https://www.dragonflycave.com/sprites/gen8/home-thumb/009.png", "https://www.dragonflycave.com/sprites/gen8/home-thumb/shiny/009.png"]}
+	}
+}

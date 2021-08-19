@@ -1,0 +1,5 @@
+*.json
+*.lzw
+saves/
+data/*
+!data/demo.json

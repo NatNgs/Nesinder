@@ -1,0 +1,5 @@
+[core]
+	autocrlf = input
+	eol = input
+	whitespace = trailing-space,space-before-tab
+
